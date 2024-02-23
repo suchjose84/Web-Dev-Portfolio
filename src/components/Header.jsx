@@ -3,7 +3,7 @@ import Nav from "./Nav";
 export default function Header() {
 
     const openPdfInNewTab = () => {
-        const pdfUrl = '/src/assets/resume/jose-such-resume.pdf';
+        const pdfUrl = '/data/resume/jose-such-resume.pdf';
         window.open(pdfUrl, '_blank');
 
     };
@@ -13,7 +13,7 @@ export default function Header() {
         <>
         <header className="header">
             <div className="headerLeftSide">
-            <Link to="/"><img className='portfolio-logo' src="/src/assets/logos/png/logo-no-background3.png" alt="Portfolio Logo" /></Link>
+            <Link to="/"><img className='portfolio-logo' src="/data/logos/png/logo-no-background3.png" alt="Portfolio Logo" /></Link>
             </div>
             <div className="headerRightSide">
                 <Nav />
