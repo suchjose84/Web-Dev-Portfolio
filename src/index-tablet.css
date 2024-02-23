@@ -1,0 +1,15 @@
+
+/* Styles for tablet view (screens between 769 and 1024 pixels wide) */
+@media (min-width: 769px) and (max-width: 1024px) {
+
+    main {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .websiteCardList {
+        width: 70%;
+        margin: 2rem auto 0 auto;
+    }
+    
+}

@@ -1,0 +1,22 @@
+/* Styles for desktop view (screens wider than 1024 pixels) */
+@media (min-width: 1025px) {
+
+    #root{
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .websiteCardList {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 15px;
+
+    }
+    .websiteCardList li{
+        margin-bottom: 0;
+
+    }
+
+    
+}

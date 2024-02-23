@@ -1,0 +1,185 @@
+/* color palletes
+    body main blue - rgb(10, 25, 47);
+    lime green font color - rgb(78, 199, 176);
+    whitish font color - rgb(204, 214, 246); 
+    web developer gray color - rgb(136, 146, 176);
+
+*/
+/* Fonts 
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Syne', sans-serif;
+
+*/
+
+/* Styles for mobile view (screens up to 768 pixels wide) */
+
+/* COLORS AND FONTS*/
+.greyish{
+    color: rgb(136, 146, 176);
+}
+.whitish{
+    color: rgb(204, 214, 246);
+}
+.limeGreen {
+    color: rgb(78, 199, 176);
+}
+.bluish {
+    color: rgb(10, 25, 47);
+}
+
+.bg-whitish {
+    background-color: rgb(204, 214, 246);
+}
+.bg-snow {
+    background-color: rgb(255,250,250);
+}
+.bg-greyish {
+    background-color: rgb(136, 146, 176);
+}
+.syne {
+    font-family: 'Syne', sans-serif;
+}
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*********** THIS IS MOBILE VIEW **************/
+
+/* ROOT STYLES*/
+
+body {
+    background-color: rgb(10, 25, 47);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(204, 214, 246);
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#root {
+    padding: 10px;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0;
+    margin: 0;
+}
+
+header img {
+    padding: 0;
+    display: block;
+    height: 100%;
+}
+
+header h1 {
+    color: rgb(78, 199, 176);
+}
+
+.headerRightSide {
+    display: flex;
+    align-items: flex-end;
+}
+
+#resume-button {
+    border: 1px solid rgb(78, 199, 176);
+    padding: 5px;
+    font-weight: bold;
+}
+
+/* HEADER NAV */
+
+header nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    color: rgb(204, 214, 246);
+}
+
+header nav ul li {
+    margin-right: 10px;
+    padding: 0;
+
+}
+
+.active {
+    font-weight: bold;
+    background-color: snow;
+
+}
+
+/*****MAINS *******/
+
+/* HOMEPAGE */
+main {
+    padding-top: 70px;
+}
+
+main h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin: 0;
+
+}
+.websiteCardList {
+    padding: 0;
+    margin: 1rem 0 0 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.websiteCardList li {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+.websiteCardList h2, .websiteCardList p {
+    padding: 0;
+    margin: 0;
+}
+
+.websiteCardList li img {
+    margin: 10px 0;
+    
+}
+
+.websiteCardList li p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+
+/******* WORK EXPERIENCE PAGE *********/
+
+.main-experience ul{
+    list-style-type: circle;
+
+}
+.main-experience h3 {
+    margin: 2rem 0 0 0;
+}
+  
+
