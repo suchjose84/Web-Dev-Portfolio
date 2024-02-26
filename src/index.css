@@ -96,7 +96,7 @@ header h1 {
 
 #resume-button {
     border: 1px solid rgb(78, 199, 176);
-    padding: 5px;
+    padding: 3px;
     font-weight: bold;
 }
 
@@ -111,16 +111,42 @@ header nav ul {
 }
 
 header nav ul li {
-    margin-right: 10px;
+    /* margin-right: 5px; */
     padding: 0;
 
 }
 
+.nav-link {
+    padding: 3px;
+}
+
+
 .active {
     font-weight: bold;
-    background-color: snow;
+    background-color: rgba(136, 146, 176, 0.3);
+    border-radius: 3px;
 
 }
+
+
+/********FOOTER********/
+footer {
+    min-height: 200px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.react-logo {
+    width: 50px;
+    margin-left: 10px;
+}
+
 
 /*****MAINS *******/
 
@@ -170,6 +196,29 @@ main h1 {
     font-weight: bold;
     
 }
+
+/******* PROJECTS PAGE *********/
+
+.projects-hero-image-box {
+    display: flex;
+    flex-direction: column;
+}
+.projects-hero-image-box figure {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.5) 0px 1px 0px inset;
+
+}
+.projects-hero-image-box img {
+    display: block;
+    width: 100%;
+}
+.projects-figure-caption {
+    padding: 5px;
+}
+
 
 
 /******* WORK EXPERIENCE PAGE *********/

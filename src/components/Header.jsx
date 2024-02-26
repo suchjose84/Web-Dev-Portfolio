@@ -21,7 +21,6 @@ export default function Header() {
                     <div id="resume-button" className="bg-limeGreen">Resume</div>
                 </div>
 
-
             </div>
             
 

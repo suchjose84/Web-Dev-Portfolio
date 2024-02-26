@@ -1,6 +1,6 @@
 
 /* Styles for tablet view (screens between 769 and 1024 pixels wide) */
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) {
 
     main {
         width: 80%;
@@ -11,5 +11,14 @@
         width: 70%;
         margin: 2rem auto 0 auto;
     }
+
+    /*********** Projects Page ************/
+    .projects-hero-image-box {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: .8fr .2fr;
+    }
+
+
     
 }

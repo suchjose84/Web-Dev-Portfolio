@@ -1,26 +1,23 @@
 import { useNavigate } from "react-router-dom";
-import { websites } from "../assets/data/websites";
+import { websites } from "/public/data/websites";
 
 export default function WebsiteCards() {
-
     const navigate = useNavigate();
 
-    const handleClickCard = () => {
-        navigate("/projects");
+    const handleClickCard = (websiteId) => {
+        navigate(`/projects/${websiteId}`);
     }
 
-    return(
-        <>
-            <ul className="websiteCardList">
-                {websites.websites.map((website, index) => (
-                <li className="bg-snow" key={index} onClick={handleClickCard}>
+    return (
+        <ul className="websiteCardList">
+            {websites.map((website, index) => (
+                <li className="bg-snow" key={index} onClick={() => handleClickCard(website.id)}>
                     <h2 className="bluish">{website.title}</h2>
-                    <img src={website.image} alt={website.title} />
+                    <img src={website.image.desktop} alt={website.title} />
                     <p className="bluish">{website.description}</p>
                 </li>
-                ))}
-            </ul>
-        </>
-    )
-
+            ))}
+        </ul>
+    );
 }
+
