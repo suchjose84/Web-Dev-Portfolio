@@ -11,7 +11,7 @@ export default function HomePage(){
                     <h1 className="syne">JOSE SUCH.</h1>
                     <h1 className="greyish syne">Web Developer.</h1>
 
-                    <p className="description">I am a junior web developer with a passion for creating dynamic and user-friendly
+                    <p className="description">I am a new web developer with a passion for creating dynamic and user-friendly
                         web
                         applications.</p>
                     <p className="description">

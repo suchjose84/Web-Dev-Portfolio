@@ -3,7 +3,8 @@ export const websites = [
     "id": "01",
     "title": "Spurbank",
     "url": "https://www.spurbank.info/",
-    "description": "Blogging website in Angular",
+    "description": "Blogging Website in Angular",
+    "about": "This personal project was crafted to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
     "image": {
       "desktop": "/data/website-images/spurbank.png", 
       "mobile": "/data/website-images/spurbank-mobile.png"
@@ -13,8 +14,9 @@ export const websites = [
   {
     "id": "02",
     "title": "PHP Motors",
-    "url": "URL not applicable yet, can only be accessed locally thru XAMPP",
+    "url": "",
     "description": "Full-stack website in PHP",
+    "about": "This is a full-stacked website using PHP in the front-end and mysql in the backend",
     "image": {
       "desktop": "/data/website-images/phpmotors.png", 
       "mobile": "/data/website-images/phpmotors-mobile.png"

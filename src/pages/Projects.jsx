@@ -36,9 +36,13 @@ export default function ProjectsPage() {
                         <figcaption className="projects-figure-caption">{website.title} - Mobile View</figcaption>
                     </figure>
                 </div>
-                <p>Website URL: <span><a className="project-link" href={website.url} rel="noreferrer" target="_blank">{website.url}</a></span></p>
-                <p>{website.description}</p>
-                <p>Platform: {website.platform}</p>
+                <ul className="project-description-list">
+                    <li><strong>Website URL: </strong><span><strong><a className="project-link" href={website.url} rel="noreferrer" target="_blank">{website.title}</a></strong></span></li>
+                    <li>About the website: {website.about}</li>
+                    <li>Coding languages used: {website.platform}</li>
+
+                </ul>
+                
             </section>
         </main>
 
