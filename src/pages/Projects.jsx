@@ -37,9 +37,9 @@ export default function ProjectsPage() {
                     </figure>
                 </div>
                 <ul className="project-description-list">
-                    <li><strong>Website URL: </strong><span><strong><a className="project-link" href={website.url} rel="noreferrer" target="_blank">{website.title}</a></strong></span></li>
-                    <li>About the website: {website.about}</li>
-                    <li>Coding languages used: {website.platform}</li>
+                    <li><span className="bold">Website URL: </span><a href={website.url} target="_blank" rel="noreferrer">{website.title}</a></li>
+                    <li><span className="bold">About the website: </span>{website.about}</li>
+                    <li><span className="bold">Coding languages used: </span>{website.platform}</li>
 
                 </ul>
                 

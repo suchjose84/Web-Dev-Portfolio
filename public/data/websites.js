@@ -4,7 +4,7 @@ export const websites = [
     "title": "Spurbank",
     "url": "https://www.spurbank.info/",
     "description": "Blogging Website in Angular",
-    "about": "This personal project was crafted to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
+    "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
     "image": {
       "desktop": "/data/website-images/spurbank.png", 
       "mobile": "/data/website-images/spurbank-mobile.png"
@@ -48,6 +48,17 @@ export const websites = [
   {
     "id": "05",
     "title": "Scoots",
+    "url": "https://suchjose84.github.io/wdd230/lesson14Scoots/contact.html",
+    "description": "Motorcycle Rental Website",
+    "image": {
+      "desktop": "/data/website-images/scoots.png", 
+      "mobile": "/data/website-images/scoots-mobile.png"
+    },
+    "platform": "HTML, CSS, Javascript"
+  },
+  {
+    "id": "06",
+    "title": "CMS",
     "url": "https://suchjose84.github.io/wdd230/lesson14Scoots/contact.html",
     "description": "Motorcycle Rental Website",
     "image": {
