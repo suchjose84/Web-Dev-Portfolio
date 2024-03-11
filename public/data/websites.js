@@ -14,9 +14,9 @@ export const websites = [
   {
     "id": "02",
     "title": "PHP Motors",
-    "url": "",
+    "url": "https://github.com/suchjose84/cse340",
     "description": "Full-stack website in PHP",
-    "about": "This is a full-stacked website using PHP in the front-end and mysql in the backend",
+    "about": "This is a full-stacked website using PHP in the front-end and mysql in the backend. Can only be deployed locally thru XAMPP.",
     "image": {
       "desktop": "/data/website-images/phpmotors.png", 
       "mobile": "/data/website-images/phpmotors-mobile.png"
@@ -48,7 +48,7 @@ export const websites = [
   {
     "id": "05",
     "title": "Scoots",
-    "url": "https://suchjose84.github.io/wdd230/lesson14Scoots/contact.html",
+    "url": "https://suchjose84.github.io/wdd230/lesson14Scoots/index.html",
     "description": "Motorcycle Rental Website",
     "image": {
       "desktop": "/data/website-images/scoots.png", 
@@ -58,13 +58,13 @@ export const websites = [
   },
   {
     "id": "06",
-    "title": "CMS",
-    "url": "https://suchjose84.github.io/wdd230/lesson14Scoots/contact.html",
-    "description": "Motorcycle Rental Website",
+    "title": "CMS - Under Construction",
+    "url": "https://master.d2ymnt7dug4olp.amplifyapp.com/",
+    "description": "MEAN Stack Website",
     "image": {
       "desktop": "/data/website-images/scoots.png", 
       "mobile": "/data/website-images/scoots-mobile.png"
     },
-    "platform": "HTML, CSS, Javascript"
+    "platform": "Angular, MongoDB"
   }
 ];
