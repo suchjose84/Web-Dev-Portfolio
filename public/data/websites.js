@@ -2,7 +2,7 @@ export const websites = [
   {
     "id": "01",
     "title": "Spurbank",
-    "url": "https://www.spurbank.info/",
+    "url": "https://master.d3b1gzkfmog3kb.amplifyapp.com/",
     "description": "Blogging Website in Angular",
     "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
     "image": {

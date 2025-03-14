@@ -13,11 +13,10 @@ export default function ContactPage() {
                 <ul>
 
                     <li>Name: Jose Such</li>
-                    <li>Age: 39</li>
+                    <li>Age: 40</li>
 
-                    <li>Address 1: 834-B Balaya Street Dagupan Tondo, Manila Zip Code 1013</li>
-                    <li>Address 2: 18 Lagundi Street CLUPA Calauag, Naga City Zip Code 4400</li>
-                    <li>Phone Number: (+63) 945-088-0711</li>
+                    <li>Address : 18 Lagundi Street CLUPA Calauag, Naga City Zip Code 4400</li>
+                    <li>Phone Number: (+63) 998-386-8357</li>
                     <li>Email: suchjose@live.com</li>
                 </ul>
             </main>
