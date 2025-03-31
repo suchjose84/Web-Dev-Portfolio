@@ -4,7 +4,7 @@ export const websites = [
   {
     "id": "06",
     "title": "CK Web App - Under Construction",
-    "url": "https://master.d3vj0k0ftrw6er.amplifyapp.com/",
+    "url": "https://master.d1vxxsszqpmbcr.amplifyapp.com/",
     "description": "Food Supply App in Angular",
     "about": "This is my personal project that I am currently working on. It is a food supply app that will be used by a local food supplier. The app will be used to manage the food supply chain, inventory, and sales. The app is built using Angular, Node.js, and MongoDB. The app is currently under construction and will be deployed soon. Best viewed on mobile devices for now.",
     "image": {
