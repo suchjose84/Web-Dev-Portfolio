@@ -4,7 +4,7 @@ export const websites = [
   {
     "id": "06",
     "title": "CK Web App - Under Construction",
-    "url": "https://master.d1vxxsszqpmbcr.amplifyapp.com/orders",
+    "url": "https://master.d39wy78c6whfvo.amplifyapp.com/",
     "description": "Food Supply App in Angular",
     "about": "This is my personal project that I am currently working on. It is a food supply app that will be used by a local food supplier. The app will be used to manage the food supply chain, inventory, and sales. The app is built using Angular, Node.js, and MongoDB. The app is currently under construction and will be deployed soon. Best viewed on mobile devices for now.",
     "image": {
@@ -16,7 +16,7 @@ export const websites = [
   {
     "id": "01",
     "title": "Spurbank",
-    "url": "https://main.dddwoour5azq2.amplifyapp.com/",
+    "url": "https://master.d1f35agzbh8lcj.amplifyapp.com/",
     "description": "Blogging Website in Angular",
     "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
     "image": {
