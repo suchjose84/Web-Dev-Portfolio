@@ -16,7 +16,7 @@ export const websites = [
   {
     "id": "01",
     "title": "Spurbank",
-    "url": "https://master.d3b1gzkfmog3kb.amplifyapp.com/",
+    "url": "https://main.dddwoour5azq2.amplifyapp.com/",
     "description": "Blogging Website in Angular",
     "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
     "image": {
