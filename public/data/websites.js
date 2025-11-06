@@ -2,30 +2,6 @@ export const websites = [
   
   
   {
-    "id": "06",
-    "title": "CK Web App - Under Construction",
-    "url": "https://master.d39wy78c6whfvo.amplifyapp.com/",
-    "description": "Food Supply App in Angular",
-    "about": "This is my personal project that I am currently working on. It is a food supply app that will be used by a local food supplier. The app will be used to manage the food supply chain, inventory, and sales. The app is built using Angular, Node.js, and MongoDB. The app is currently under construction and will be deployed soon. Best viewed on mobile devices for now.",
-    "image": {
-      "desktop": "/data/website-images/ckwebapp.png", 
-      "mobile": "/data/website-images/ckwebapp-mobile.png"
-    },
-    "platform": "Angular, Typescript, Bootstrap, CSS"
-  },
-  {
-    "id": "01",
-    "title": "Spurbank",
-    "url": "https://master.d1f35agzbh8lcj.amplifyapp.com/",
-    "description": "Blogging Website in Angular",
-    "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
-    "image": {
-      "desktop": "/data/website-images/spurbank.png", 
-      "mobile": "/data/website-images/spurbank-mobile.png"
-    },
-    "platform": "Angular, Typescript, Bootstrap, CSS"
-  },
-  {
     "id": "02",
     "title": "PHP Motors",
     "url": "https://www.youtube.com/watch?v=v3q5ce589aY",
@@ -72,5 +48,29 @@ export const websites = [
       "mobile": "/data/website-images/scoots-mobile.png"
     },
     "platform": "HTML, CSS, Javascript"
+  },
+  {
+    "id": "06",
+    "title": "CK Web App - Under Construction",
+    "url": "https://master.d39wy78c6whfvo.amplifyapp.com/",
+    "description": "Food Supply App in Angular",
+    "about": "This is my personal project that I am currently working on. It is a food supply app that will be used by a local food supplier. The app will be used to manage the food supply chain, inventory, and sales. The app is built using Angular, Node.js, and MongoDB. The app is currently under construction and will be deployed soon. Best viewed on mobile devices for now.",
+    "image": {
+      "desktop": "/data/website-images/ckwebapp.png", 
+      "mobile": "/data/website-images/ckwebapp-mobile.png"
+    },
+    "platform": "Angular, Typescript, Bootstrap, CSS"
+  },
+  {
+    "id": "01",
+    "title": "Spurbank - Under Construction",
+    "url": "https://master.d1f35agzbh8lcj.amplifyapp.com/",
+    "description": "Blogging Website in Angular",
+    "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
+    "image": {
+      "desktop": "/data/website-images/spurbank.png", 
+      "mobile": "/data/website-images/spurbank-mobile.png"
+    },
+    "platform": "Angular, Typescript, Bootstrap, CSS"
   },
 ];
