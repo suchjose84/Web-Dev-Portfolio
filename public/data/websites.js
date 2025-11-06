@@ -28,9 +28,9 @@ export const websites = [
   {
     "id": "02",
     "title": "PHP Motors",
-    "url": "https://github.com/suchjose84/cse340",
-    "description": "Full-stack website in PHP",
-    "about": "This is a full-stacked website using PHP in the front-end and mysql in the backend. Capable of handling user authentication, user input validation, and database management. Please download the repository and run it on your local server using XAMPP to view the website.",
+    "url": "YouTube: https://github.com/suchjose84/cse340, Github: https://github.com/suchjose84/cse340",
+    "description": "Full-stack website in PHP and MySQL as database", 
+    "about": "A full-stack web application I developed in PHP with a MySQL database. It was hosted locally using XAMPP. Please refer to the YouTube demo video on the url link and the GitHub repository for more details.",
     "image": {
       "desktop": "/data/website-images/phpmotors.png", 
       "mobile": "/data/website-images/phpmotors-mobile.png"
