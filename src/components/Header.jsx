@@ -3,7 +3,7 @@ import Nav from "./Nav";
 export default function Header() {
 
     const openPdfInNewTab = () => {
-        const pdfUrl = '/data/resume/jose-such-resume.pdf';
+        const pdfUrl = '/data/jose-such-resume.pdf';
         window.open(pdfUrl, '_blank');
 
     };
