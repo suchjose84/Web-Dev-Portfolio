@@ -64,7 +64,7 @@ export const websites = [
   {
     "id": "01",
     "title": "Spurbank - Under Construction",
-    "url": "https://master.d1f35agzbh8lcj.amplifyapp.com/",
+    "url": "https://spurbank-os4pmjal4-suchjose84s-projects.vercel.app/",
     "description": "Blogging Website in Angular",
     "about": "This personal project was made to refine my skills in full-stack development and blogging website creation. Utilizing Angular for the frontend and Node.js for both backend logic and database management, it embodies my proficiency in modern web technologies.",
     "image": {
