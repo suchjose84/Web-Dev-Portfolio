@@ -250,5 +250,180 @@ main h1 {
 .main-experience h3 {
     margin: 2rem 0 0 0;
 }
+
+
+/* WEBSITE CARD HEADER */
+
+.websiteCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.websiteCardHeader h2 {
+    margin: 0;
+    color: rgb(10, 25, 47);
+    font-family: 'Syne', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* PROJECT STATUS BADGE */
+
+.projectStatus {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 10px;
+    border: 1px solid rgb(78, 199, 176);
+    border-radius: 20px;
+    background-color: rgba(78, 199, 176, 0.12);
+    color: rgb(10, 100, 85);
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    white-space: nowrap;
+}
+
+
+.websiteCardList li {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 14px;
+    margin-bottom: 2rem;
+    cursor: pointer;
+
+    border: 1px solid rgba(136, 146, 176, 0.2);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.websiteCardList li:hover {
+    transform: translateY(-6px);
+    border-color: rgb(78, 199, 176);
+    box-shadow: 0 14px 30px rgba(0, 0, 0, 0.3);
+}
+
+.websiteCardList li:active {
+    transform: translateY(-2px) scale(0.99);
+}
+
+.websiteCardList li img {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 6px;
+
+    transition: transform 0.3s ease;
+}
+
+.websiteCardList li:hover img {
+    transform: scale(1.015);
+}
+
+.websiteCardHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Keyboard accessibility */
+.websiteCardList li:focus-visible {
+    outline: 3px solid rgb(78, 199, 176);
+    outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .websiteCardList li,
+    .websiteCardList li img {
+        transition: none;
+    }
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    height: auto;
+    padding: 0 30px;
+    margin: 0;
+}
+
+header img {
+    display: block;
+    height: 50px;
+    width: auto;
+}
+
+.headerRightSide {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    padding: 0;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 9px 13px;
+    border-radius: 5px;
+    color: rgb(204, 214, 246);
+    font-size: 0.95rem;
+    transition: 
+        color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.nav-link:hover {
+    color: rgb(78, 199, 176);
+    background-color: rgba(136, 146, 176, 0.12);
+}
+
+.nav-link.active {
+    color: rgb(78, 199, 176);
+    background-color: rgba(136, 146, 176, 0.2);
+    font-weight: 700;
+}
+
+#resume-button {
+    display: inline-block;
+    padding: 9px 13px;
+    margin-left: 5px;
+    border: 1px solid rgb(78, 199, 176);
+    border-radius: 5px;
+    color: rgb(78, 199, 176);
+    font-weight: 600;
+    transition: 
+        color 0.2s ease,
+        background-color 0.2s ease;
+}
+
+#resume-button:hover {
+    color: rgb(10, 25, 47);
+    background-color: rgb(78, 199, 176);
+}
+
+
   
 

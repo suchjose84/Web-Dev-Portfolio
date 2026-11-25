@@ -2,17 +2,33 @@ export const websites = [
   
   
   {
-    "id": "02",
-    "title": "PHP Motors",
-    "url": "https://www.youtube.com/watch?v=v3q5ce589aY",
-    "description": "Full-stack website in PHP and MySQL as database", 
-    "about": "A full-stack web application developed in PHP with a MySQL database, hosted locally using XAMPP. Please refer to the YouTube demo video in the link above, and you can view the source code in the GitHub repository: https://github.com/suchjose84/cse340.",
+    "id": "01",
+    "title": "SETYOGI",
+    "status": "In Development",
+    "url": "https://job-app-chi-steel.vercel.app/",
+    "description": "Full-Stack Job Marketplace & Freelance Platform",
+    "about": "SetYogi is a full-stack job marketplace platform designed to connect job seekers, employers, and freelancers. It provides job and gig listings, company profiles, job search, user authentication, job applications, and resume uploads. Employers can publish job opportunities and manage their listings, while job seekers can explore opportunities, save jobs, and apply directly through the platform. The application also integrates Cloudinary for media storage, PayMongo for online payment processing, and Google email services for email-related functionality. Built with a responsive interface to deliver a seamless experience across desktop, tablet, and mobile devices.",
     "image": {
-      "desktop": "/data/website-images/phpmotors.png", 
-      "mobile": "/data/website-images/phpmotors-mobile.png"
+      "desktop": "/data/website-images/setyogi.png",
+      "mobile": "/data/website-images/setyogi-mobile.png"
     },
-    "platform": "PHP, MySQL"
+    "platform": "Angular, Node.js, Express.js, MongoDB, Cloudinary, PayMongo, Google Email Services"
   },
+
+  {
+    "id": "02",
+    "title": "Concierge Tools",
+    "status": "In Development",
+    "url": "https://concierge-tools-taupe.vercel.app/",
+    "description": "Full-Stack Workflow & Case Management System",
+    "about": "Concierge Tools is a full-stack workflow management application designed to streamline account and case management for an arts concierge team. It provides centralized client account management, case tracking, status monitoring, case notes, and activity history to help organize daily operations and improve workflow visibility. The system allows team members to manage client information, monitor case progress, record important updates, and maintain historical records of account activities. Built with a .NET backend and PostgreSQL database, the application focuses on maintaining organized records, efficient case handling, and a structured workflow management experience.",
+    "image": {
+      "desktop": "/data/website-images/concierge-tools.png",
+      "mobile": "/data/website-images/concierge-tools-mobile.png"
+    },
+    "platform": ".NET, PostgreSQL, Supabase"
+  },
+
   {
     "id": "03",
     "title": "Pokemon Pokedex",
